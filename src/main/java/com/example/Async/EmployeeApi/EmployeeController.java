@@ -1,4 +1,4 @@
-package com.example.EmployeeAsync;
+package com.example.Async.EmployeeApi;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

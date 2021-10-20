@@ -1,10 +1,10 @@
-package com.example.EmployeeAsync;
+package com.example.Async;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class EmployeeAsyncApplicationTests {
+class AsyncApplicationTests {
 
 	@Test
 	void contextLoads() {

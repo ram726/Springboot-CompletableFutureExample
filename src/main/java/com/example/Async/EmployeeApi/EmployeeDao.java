@@ -1,4 +1,4 @@
-package com.example.EmployeeAsync;
+package com.example.Async.EmployeeApi;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
@@ -19,15 +19,15 @@ class EmployeeDAO {
         log.info("Calling----> EmployeeDAO->getEmployees()");
          Employee emp = new Employee();
         emp.setEmpId("1234"); 
-        emp.setEmpName("Sacin Tendulakr");
+        emp.setEmpName("Employee-1");
 
         Employee emp1 = new Employee();
         emp1.setEmpId("5678");
-        emp1.setEmpName("M.S. Dhoni");
+        emp1.setEmpName("Employee-2");
 
         Employee emp2 = new Employee();
         emp2.setEmpId("90123");
-        emp2.setEmpName("Rahul Dravid");
+        emp2.setEmpName("Employee-3");
 
         List<Employee> employees = new ArrayList<>();
         employees.add(emp);

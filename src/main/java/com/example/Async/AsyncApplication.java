@@ -1,13 +1,13 @@
-package com.example.EmployeeAsync;
+package com.example.Async;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class EmployeeAsyncApplication {
+public class AsyncApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(EmployeeAsyncApplication.class, args);
+		SpringApplication.run(AsyncApplication.class, args);
 	}
 
 }

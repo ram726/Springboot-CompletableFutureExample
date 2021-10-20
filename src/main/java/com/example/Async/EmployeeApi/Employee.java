@@ -1,4 +1,4 @@
-package com.example.EmployeeAsync;
+package com.example.Async.EmployeeApi;
 
 import lombok.Data;
 import lombok.ToString;
